@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+python-dotenv = "*"
+PyJWT = "*"
+django-allauth = "*"
+django-unfold = "*"
+django-import-export = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
